@@ -1,0 +1,57 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+}
+.header a, .header button {
+	margin: 10px;
+	color: #000;
+	text-decoration: none;
+}
+.header button {
+	background: #4484f1;
+	padding: 8px;
+	font-size: 15px;
+}
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+    flex-direction: column;	
+}
+.searchbox {
+	display: flex;
+	align-items: center;
+	height: 90px;
+}
+.searchbox input {
+	width: 500px;
+	height: 30px;
+}
+.buttons {
+	display: flex;
+	align-items: center;
+	height: 15px;
+}
+.language {
+	display: flex;
+	align-items: center;
+	height: 70px;
+}
+.country {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 50px;
+}
+.footerlinks {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 20px;
+}
+.footerlinks a {
+	margin: 10px;
+	color: #000;
+	text-decoration: none;
+}
